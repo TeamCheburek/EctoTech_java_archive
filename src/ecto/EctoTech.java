@@ -1,17 +1,15 @@
-package example;
+package ecto;
 
 import arc.*;
 import arc.util.*;
-import mindustry.*;
-import mindustry.content.*;
+import ecto.content.ectoItems;
 import mindustry.game.EventType.*;
-import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class EctoTech extends Mod{
 
-    public ExampleJavaMod(){
+    public EctoTech(){
         Log.info("Loaded ExampleJavaMod constructor.");
 
         //listen for game load event
@@ -30,7 +28,8 @@ public class ExampleJavaMod extends Mod{
 
     @Override
     public void loadContent(){
-        Log.info("Loading some example content.");
+        ectoItems.load();
     }
+
 
 }
