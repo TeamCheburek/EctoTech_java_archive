@@ -2,7 +2,7 @@ package ecto.content;
 
 import mindustry.type.Item;
 
-public class ectoItems {
+public class ECTOItems {
     public static Item bismuth, zinc;
     public static void load() {
         bismuth = new Item("bismuth") {{
