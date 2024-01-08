@@ -13,7 +13,7 @@ public class EctoTech extends Mod{
     public EctoTech(){
         Log.info("Loaded ExampleJavaMod constructor.");
 
-        //listen for game load event zxc
+        //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
             //show dialog upon startup
             Time.runTask(10f, () -> {
