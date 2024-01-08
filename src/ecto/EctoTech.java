@@ -3,6 +3,7 @@ package ecto;
 import arc.*;
 import arc.util.*;
 import ecto.content.ECTOItems;
+import ecto.content.ECTOPlanets;
 import mindustry.game.EventType.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
@@ -29,6 +30,7 @@ public class EctoTech extends Mod{
     @Override
     public void loadContent(){
         ECTOItems.load();
+        ECTOPlanets.load();
     }
 
 
