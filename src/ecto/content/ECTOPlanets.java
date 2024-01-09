@@ -22,9 +22,13 @@ public class ECTOPlanets {
                     new HexSkyMesh(this, 2, 0.15f, 0.14f, 5, Color.valueOf("eba768").a(0.75f), 2, 0.42f, 1f, 0.43f),
                     new HexSkyMesh(this, 3, 0.6f, 0.15f, 5, Color.valueOf("eea293").a(0.75f), 2, 0.42f, 1.2f, 0.45f)
             );
+            hasAtmosphere = true;
+            bloom = false;
             alwaysUnlocked = true;
             atmosphereColor = Color.valueOf("79a89d");
             clearSectorOnLose = true;
+            startSector = 0;
+            allowLaunchLoadout = true;
             allowLaunchToNumbered = false;
         }};
     }
