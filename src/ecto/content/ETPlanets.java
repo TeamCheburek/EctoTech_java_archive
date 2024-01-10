@@ -4,13 +4,11 @@ import arc.graphics.Color;
 import mindustry.graphics.g3d.HexMesh;
 import mindustry.graphics.g3d.HexSkyMesh;
 import mindustry.graphics.g3d.MultiMesh;
-import mindustry.graphics.g3d.HexMesher;
-import mindustry.maps.planet.ErekirPlanetGenerator;
 import mindustry.maps.planet.SerpuloPlanetGenerator;
 import mindustry.type.Planet;
 import mindustry.content.Planets;
 
-public class ECTOPlanets {
+public class ETPlanets {
     public static Planet
     ectorum;
 
